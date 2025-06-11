@@ -5,4 +5,6 @@
 #include <string.h>
 
 
-void init(int argc, char* argv[]);
+uint8_t argHandler(int argc, char* argv[]);
+
+uint8_t checkPort(int8_t port);
